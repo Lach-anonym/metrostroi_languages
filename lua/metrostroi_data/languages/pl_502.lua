@@ -25,7 +25,7 @@ Common.502.LRU                  = Kontrolka załączenia silników w sterowaniu 
 Spawner.502.TypeNVL         = Train from NVL #FIXME
 Spawner.502.TypeKVLO        = Old train from KVL #FIXME
 Spawner.502.TypeKVLN        = New train from KVL #FIXME
-Spawner.502.EWagons         = Add "E" type wagons #FIXME
+Spawner.502.EWagons         = Dodaj wagony typu E
 
 #gmod_subway_81-502
 Entities.gmod_subway_81-502.Buttons.VBA.VBAToggle = Wyłącznik baterii jazdy samoczynnej
