@@ -7,7 +7,7 @@ AuthorText  = Translation Author: Pollitto      #Author text
 
 #Workshop errors
 Workshop.Title              = Content manager
-Workshop.FilesMissing       = Missing some addon files or addon is corrupted.\nIf addons has installed from Workshop, try to delete a file:\nGarrysMod/garrysmod/%s.
+Workshop.FilesMissing       = Missing some addon files or addon is corrupted.\nIf addons are installed from Workshop, try to delete the file:\nGarrysMod/garrysmod/%s.
 Workshop.FilesMissingLocaly = Missing some addon files or addon is corrupted.
 Workshop.InstalledLocaly    = Installed (local)
 Workshop.NotInstalledE      = Not installed.\nSubscribe to the addon and check it in the "Addons" menu.
@@ -17,9 +17,9 @@ Workshop.Installed          = Installed
 Workshop.Open               = Workshop
 Workshop.ErrorGithub        = Detected GitHub version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with GitHub version of Metrostroi.
 Workshop.ErrorLegacy        = Detected Legacy version of the Metrostroi. Current Metrostroi version is not compatible and cannot work with Legacy version of Metrostroi.
-Workshop.ErrorEnhancers     = This addon contains a graphic enhancers that may interfere with the game experience.
-Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with current. May be "Scripts errors" and unstable work of the addon.
-Workshop.ErrorOld           = Old models detected (81-702 and 81-717 old models). Check and remove old metrostroi content files, remove "cache", "download" and "downloads" folders from "garrysmod" folder.
+Workshop.ErrorEnhancers     = This addon contains graphic enhancers that may worsen the game experience.
+Workshop.Error1             = This addon contain an old script code of the Metrostroi that conflicts with the current one. Script errors may occur and the addon will be unstable.
+Workshop.ErrorOld           = Old models of 81-702 and 81-717 detected. Check and remove old Metrostroi content files, remove "cache", "download" and "downloads" folders from the "garrysmod" folder.
 
 #Client settings
 Panel.Admin             = Admin
@@ -34,10 +34,10 @@ Panel.DisableHoverText  = Disable tooltips
 Panel.DisableHoverTextP = Disable additional information\nin tooltips #NEW #FIXME
 Panel.ScreenshotMode    = Screenshot mode (LOW FPS)
 Panel.ShadowsHeadlight  = Enable headlight shadows
-Panel.RedLights         = Enable dynamic light\nof red lights
-Panel.ShadowsOther      = Enable shadows from other\nlight sources
-Panel.MinimizedShow     = Don't unload an elements\nwhen minimized
-Panel.PanelLights       = Enable dynamic lights\nfrom control panel lamps #NEW
+Panel.RedLights         = Enable dynamic\nred lights
+Panel.ShadowsOther      = Enable shadows from the other\nlight sources
+Panel.MinimizedShow     = Do not unload elements\nwhen minimized
+Panel.PanelLights       = Enable dynamic lights\nof control panel lamps #NEW
 Panel.RouteNumber       = Route number #NEW
 Panel.FOV               = FOV
 Panel.Z                 = Camera height #NEW
@@ -50,7 +50,7 @@ Panel.DrawSignalDebugInfo     = Signalling debug info
 Panel.CheckAddons       = Scan addons
 Panel.ReloadLang        = Reload languages
 Panel.SoftDraw          = Train elements loading time
-Panel.SoftReloadLang    = Don't reload a spawnmenu
+Panel.SoftReloadLang    = Don't reload the spawnmenu
 
 
 
@@ -76,8 +76,8 @@ Train.Buttons.Closed        = Closed #NEW
 Train.Buttons.Opened        = Opened #NEW
 Train.Buttons.Disconnected  = Disconnected #NEW
 Train.Buttons.Connected     = Connected #NEW
-Train.Buttons.UAVAOff       = Control circuits is open #NEW (OFF)
-Train.Buttons.UAVAOn        = Control circuits is closed #NEW (ON)
+Train.Buttons.UAVAOff       = Control circuits are open #NEW (OFF)
+Train.Buttons.UAVAOn        = Control circuits are closed #NEW (ON)
 Train.Buttons.Freq1/5       = 1/5 autoblocking #NEW
 Train.Buttons.Freq2/6       = 2/6 ALS-ARS #NEW
 Train.Buttons.Left          = Left #NEW
@@ -93,8 +93,8 @@ Train.Buttons.3             = 3 #NEW
 Train.Buttons.4             = 4 #NEW
 Train.Buttons.Forward       = Forward #NEW
 Train.Buttons.Back          = Backward #NEW
-Train.Buttons.VentHalf      = 1/2 of speed #NEW (of ventilation)
-Train.Buttons.VentFull      = Full speed #NEW (of ventilation)
+Train.Buttons.VentHalf      = Ventilation - half speed #NEW (of ventilation)
+Train.Buttons.VentFull      = Ventilation - full speed #NEW (of ventilation)
 Train.Buttons.VTRF          = Forward oriented wagons #NEW
 Train.Buttons.VTRB          = Back oriented wagons #NEW
 Train.Buttons.VTR1          = Even wagons #NEW
@@ -151,7 +151,7 @@ Entities.gmod_train_couple.Name       = Coupler
 
 #Other entities
 Entities.gmod_track_pui.Name                = PUI
-Entities.gmod_track_mus_elektronika7.Name   = "Electronika" clock
+Entities.gmod_track_mus_elektronika7.Name   = "Elektronika" clock
 Entities.gmod_mus_clock_analog.Name         = Analog clock
 Entities.gmod_track_clock_time.Name         = Big interval clock (time)
 Entities.gmod_track_clock_small.Name        = Small interval clock
@@ -166,13 +166,13 @@ Entities.gmod_train_special_box.Name        = Special delivery
 #Weapons
 Weapons.button_presser.Name                 = Button presser
 Weapons.button_presser.Purpose              = Used to press buttons on the maps.
-Weapons.button_presser.Instructions         = Aim to a button and click "Attack" button.
+Weapons.button_presser.Instructions         = Aim at a button and click the "Attack" button.
 Weapons.train_key.Name                      = Administrator key
-Weapons.train_key.Purpose                   = Used to activate the administrators buttons.
-Weapons.train_key.Instructions              = Aim to the administrator button and press "Attack" button.
+Weapons.train_key.Purpose                   = Used to activate the administrator buttons.
+Weapons.train_key.Instructions              = Aim at the administrator button and press "Attack" button.
 Weapons.train_kv_wrench.Name                = Reverser wrench
 Weapons.train_kv_wrench.Purpose             = Used in metro train and for pressing buttons in them.
-Weapons.train_kv_wrench.Instructions        = Aim to a button in the train and press "Attack" button.
+Weapons.train_kv_wrench.Instructions        = Aim at a button in the train and press "Attack" button.
 Weapons.train_kv_wrench_gold.Name           = The golden reverser wrench
 
 Weapons.train_kv_wrench_gold.Purpose        = @[Weapons.train_kv_wrench.Purpose]
@@ -435,10 +435,10 @@ Common.BZOS.Engaged = Security alarm is triggered
 
 #Train helpers common
 Common.ALL.SpeedCurr        = Actual speed #FIXME
-Common.ALL.SpeedAccept      = Allowed speed
-Common.ALL.SpeedAttent      = Allowed speed on the next block
+Common.ALL.SpeedAccept      = Speed limit
+Common.ALL.SpeedAttent      = Speed limit on the next block
 Common.ALL.Speedometer      = Speedometer
-Common.ALL.BLTLPressure     = Pressure in pneumatic lines (red: brake line, black: train line)
+Common.ALL.BLTLPressure     = Pressure in the pneumatic lines (red: brake line, black: train line)
 Common.ALL.BCPressure       = Brake cylinder pressure
 Common.ALL.EnginesCurrent   = Engines current (A)
 Common.ALL.EnginesCurrent1  = 1st traction motors current (A)
